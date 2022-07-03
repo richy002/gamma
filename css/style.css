@@ -1,0 +1,59 @@
+:root {
+    --gamma-color: #1caa98;
+    --gamma-light:   #aabdba
+}
+
+#hero {
+    height: 550px;
+    background-image: url(../img/img/site_showcase_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#fixedNav {
+    transform: height 0.5s, background-color 0.8s linear,
+}
+
+.text-gamma {
+    color: #1caa98 !important; 
+}
+
+.right-side-image {
+    width: 60%;
+}
+
+.gamma {
+    background-color: var(--gamma-color) !important;
+}
+
+.gamma-light {
+    background-color: var(--gamma-light) !important;
+    height: 70px !important;
+}
+
+.gamma-features {
+    padding: 3rem 0;
+}
+
+.gamma-features h3 {
+    font-size: 2.5rem;
+}
+
+.gamma-features ul li {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    list-style-type: "\2713";
+}
+
+.input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#message {
+    padding: 20px;
+}

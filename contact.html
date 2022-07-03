@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./vendors/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top" id="fixedNav">
+            <div class="container">
+                <a href="#" class="navbar-brand text-gamma">Gamma</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ourNavBar">
+                    <span class="navbar-toggle-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="ourNavBar">
+                    <ul class="navbar-nav" aria-controls="ourNavBar" aria-expanded="false">
+                        <li class="nav-item">
+                            <a href="/index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/contact.html" class="nav-link active">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>   
+        </nav>
+        <section class="breadcrum p-5 p-lg-0 gamma">
+                <div class="container mt-5">
+                    <h2 class="h1 text-white py-4">About Gamma</h2>
+                </div>
+        </section>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-md-7">
+                       <form>
+                           <div class="form-group">
+                               <div><label for="name">Name</label> </div>
+                               <input class="input" type="text" name="name" id="name" placeholder="Enter your name"
+                               required>
+                           </div>
+                           <div class="form-group">
+                               <div><label for="companyName">Company Name</label> </div>
+                               <input class="input" type="text" name="companyName" id="companyName" placeholder="Enter Company Name"
+                               required>
+                           </div>
+                           <div class="form-group">
+                               <div><label for="email">Email Address</label> </div>
+                               <input class="input" type="email" name="email" id="email" placeholder="Enter Email"
+                               required>
+                           </div>
+                           <div class="message">
+                            <div> <label for="message">Enter Message</label></div>
+                            <textarea class="input" name="message" id="message" placeholder="Enter message"></textarea>
+                            </div>
+                            <a href="#" class="btn btn-outline-secondary">Submit</a>
+                       </form>
+                        
+                    </div>
+                    <div class="col-md-5">
+                        <img src="./img/img/demo1.jpg" alt="demo" class="img-fluid border border-secondary">
+                        <h3>lorem ipsum</h3>
+                        <p>Why do we use? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eveniet molestiae nisi quis architecto sed animi dolor hic laudantium iusto libero sunt fuga aperiam maiores corrupti a, eius ad natus iure blanditiis ducimus molestias voluptates. Nulla nam dicta libero in.</p>
+                        <a href="#" class="btn btn-outline-secondary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>          
+    <footer class="bg-dark">
+        <div class="container py-5">
+            <div class="row align-items-center justify-content-between">
+                <div class="col">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link link-light">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link link-light">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link link-light">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link link-light">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <p class="text-white mb-0">Copyright &copy; 2021, All Right Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./vendors/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="./js/gamma.js"></script>
+</body>
+</html>
